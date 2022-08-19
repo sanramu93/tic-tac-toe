@@ -1,0 +1,10 @@
+.gameboard {
+  --size: 30rem;
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
+  width: var(--size);
+  height: var(--size);
+  margin: 0 auto;
+  background-color: var(--yellow);
+}

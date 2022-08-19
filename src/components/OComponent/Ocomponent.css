@@ -1,0 +1,7 @@
+.circle {
+    --circle-size: calc(var(--size)/4.5);
+    width: var(--circle-size);
+    height: var(--circle-size);
+    border-radius: 50%;
+    border: calc(var(--circle-size)/6.6) solid var(--red);
+}

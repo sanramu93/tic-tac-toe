@@ -1,0 +1,12 @@
+.square {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+  width: calc(var(--size) / 3);
+  height: calc(var(--size) / 3);
+  background-color: var(--green);
+  outline: 1px solid black;
+  box-sizing: border-box;
+  padding: 0px;
+}
